@@ -1,2 +1,3 @@
-# RPE-Guide
-Rewrite via VuePress
+# Re:Phiedit 指南
+
+重构 RPE 说明书结构，优化阅读体验，本项目旨在提升 RPE 说明书的易懂程度
