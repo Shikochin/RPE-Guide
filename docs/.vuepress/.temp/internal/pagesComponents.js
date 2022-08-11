@@ -15,14 +15,6 @@ export const pagesComponents = {
   "v-d04296b0": defineAsyncComponent(() => import(/* webpackChunkName: "v-d04296b0" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/intro.html.vue")),
   // path: /basis/chart/
   "v-1cbcd47b": defineAsyncComponent(() => import(/* webpackChunkName: "v-1cbcd47b" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/index.html.vue")),
-  // path: /basis/inside-chart/event.html
-  "v-9a580052": defineAsyncComponent(() => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.vue")),
-  // path: /basis/inside-chart/line.html
-  "v-b29585e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.vue")),
-  // path: /basis/inside-chart/note.html
-  "v-7bea8bcf": defineAsyncComponent(() => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.vue")),
-  // path: /basis/inside-chart/
-  "v-0160ef58": defineAsyncComponent(() => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.vue")),
   // path: /basis/charting/batch-edit-basics.html
   "v-7e893ae5": defineAsyncComponent(() => import(/* webpackChunkName: "v-7e893ae5" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/batch-edit-basics.html.vue")),
   // path: /basis/charting/edit-events.html
@@ -33,6 +25,14 @@ export const pagesComponents = {
   "v-15e0bb3d": defineAsyncComponent(() => import(/* webpackChunkName: "v-15e0bb3d" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/judgment-line-management.html.vue")),
   // path: /basis/charting/
   "v-3a769cc1": defineAsyncComponent(() => import(/* webpackChunkName: "v-3a769cc1" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/index.html.vue")),
+  // path: /basis/inside-chart/event.html
+  "v-9a580052": defineAsyncComponent(() => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.vue")),
+  // path: /basis/inside-chart/line.html
+  "v-b29585e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.vue")),
+  // path: /basis/inside-chart/note.html
+  "v-7bea8bcf": defineAsyncComponent(() => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.vue")),
+  // path: /basis/inside-chart/
+  "v-0160ef58": defineAsyncComponent(() => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.vue")),
   // path: /basis/UI/edit-window.html
   "v-6374ccd2": defineAsyncComponent(() => import(/* webpackChunkName: "v-6374ccd2" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/edit-window.html.vue")),
   // path: /basis/UI/functions.html

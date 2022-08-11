@@ -30,6 +30,7 @@ export default defineUserConfig({
     plugins: [
         backToTopPlugin(),
     ],
+
     lang: 'zh-CN',
     title: 'Re:Phiedit 指南',
     theme: defaultTheme({
@@ -45,10 +46,8 @@ export default defineUserConfig({
         docsDir: 'docs',
         editLinkText: '在 Github 上编辑此页',
         logo: '/assets/img/logo.png',
-
         sidebar: [{
             text: '准备',
-            collapsable: false,
             link: '/prepare/',
             children: [
                 '/prepare/intro',
@@ -56,7 +55,6 @@ export default defineUserConfig({
             ]
         }, {
             text: '基础',
-            collapsable: false,
             children: [
                 {
                     text: '谱面',

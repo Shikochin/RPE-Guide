@@ -13,14 +13,6 @@ export const pagesData = {
   "v-d04296b0": () => import(/* webpackChunkName: "v-d04296b0" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/intro.html.js").then(({ data }) => data),
   // path: /basis/chart/
   "v-1cbcd47b": () => import(/* webpackChunkName: "v-1cbcd47b" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/index.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/event.html
-  "v-9a580052": () => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/line.html
-  "v-b29585e6": () => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/note.html
-  "v-7bea8bcf": () => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/
-  "v-0160ef58": () => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.js").then(({ data }) => data),
   // path: /basis/charting/batch-edit-basics.html
   "v-7e893ae5": () => import(/* webpackChunkName: "v-7e893ae5" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/batch-edit-basics.html.js").then(({ data }) => data),
   // path: /basis/charting/edit-events.html
@@ -31,6 +23,14 @@ export const pagesData = {
   "v-15e0bb3d": () => import(/* webpackChunkName: "v-15e0bb3d" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/judgment-line-management.html.js").then(({ data }) => data),
   // path: /basis/charting/
   "v-3a769cc1": () => import(/* webpackChunkName: "v-3a769cc1" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/index.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/event.html
+  "v-9a580052": () => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/line.html
+  "v-b29585e6": () => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/note.html
+  "v-7bea8bcf": () => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/
+  "v-0160ef58": () => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.js").then(({ data }) => data),
   // path: /basis/UI/edit-window.html
   "v-6374ccd2": () => import(/* webpackChunkName: "v-6374ccd2" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/edit-window.html.js").then(({ data }) => data),
   // path: /basis/UI/functions.html
