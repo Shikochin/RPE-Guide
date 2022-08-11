@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-0160ef58","path":"/basis/inside-chart/","title":"\u8C31\u9762\u4E4B\u4E0B","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660221741000,"contributors":[{"name":"CQBerry","email":"chinq6624@gmail.com","commits":1}]},"filePathRelative":"basis/inside-chart/README.md"}');export{e as data};
