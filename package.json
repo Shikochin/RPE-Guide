@@ -1,0 +1,22 @@
+{
+  "name": "rpe-guide",
+  "version": "1.0.0",
+  "description": "重构 RPE 说明书结构，优化阅读体验，本项目旨在提升 RPE 说明书的易懂程度",
+  "main": "index.js",
+  "repository": "git@github.com:CQBerry/RPE-Guide.git",
+  "author": "CQBerry <chinq6624@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.49"
+  },
+  "dependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-beta.45",
+    "markdown-it": "^13.0.1",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-mathjax3": "^4.3.1"
+  }
+}

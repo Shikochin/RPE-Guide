@@ -1,0 +1,32 @@
+<template><div><h1 id="处理音符" tabindex="-1"><a class="header-anchor" href="#处理音符" aria-hidden="true">#</a> 处理音符</h1>
+<p>在本页，您将会了解如何放置音符以及编辑单个音符</p>
+<p>将鼠标移动至编辑窗口左半侧，这里是编辑音符的区域</p>
+<p>在该区域按下：</p>
+<ul>
+<li>
+<p>Q 键：在光标位置放置一个 Tap 音符</p>
+</li>
+<li>
+<p>W 键：在光标位置放置一个 Drag 音符</p>
+</li>
+<li>
+<p>E 键：在光标位置放置一个 Flick 音符</p>
+</li>
+<li>
+<p>R 键：在光标位置放置一个 Hold 音符头部，此时移动鼠标（将会实时预览放置的效果，该过程不会被滚轮、进度条等时间的移动打断，可以用 ESC 键退出）到 Hold 音符结束位置，再按下 R 键即可放置 Hold 音符尾部</p>
+</li>
+</ul>
+<p><img src="/assets/img/content/音符放置快捷键演示.avif" alt="音符放置快捷键演示"></p>
+<p>放置的音符会自动吸附到最近的<strong>横线</strong>（关于横线功能，详见 <RouterLink to="/basis/UI/tools-bar.html">工具栏</RouterLink> ）上，横线的条数决定了每一拍被划分的份数。如图，音符被吸附到了第 <mjx-container class="MathJax" jax="SVG" style="direction: ltr;"><svg style="overflow: visible; min-height: 1px; min-width: 1px; vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="2.927ex" height="2.737ex" role="img" focusable="false" viewBox="0 -864.9 1293.6 1209.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z" style="stroke-width: 3;"/></g><g data-mml-node="mfrac" transform="translate(500,0)"><g data-mml-node="mn" transform="translate(220,394) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z" style="stroke-width: 3;"/></g><g data-mml-node="mn" transform="translate(220,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z" style="stroke-width: 3;"/></g><rect width="553.6" height="60" x="120" y="220"/></g></g></g></svg></mjx-container> 拍横线上。同时，如果开启了<strong>竖线</strong>（关于竖线功能，详见 <RouterLink to="/basis/UI/tools-bar.html">工具栏</RouterLink> ），左侧音符编辑区域将等距显示竖线，放置的音符会自动吸附到最近的竖线上（中心竖线颜色突出）。需要注意的是如果不开启竖线，音符的 <mjx-container class="MathJax" jax="SVG" style="direction: ltr;"><svg style="overflow: visible; min-height: 1px; min-width: 1px; vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.928ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 852 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D44B" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z" style="stroke-width: 3;"/></g></g></g></svg></mjx-container> 坐标放置就可以很随意，但是即使关掉横线，横线只是不可视了，音符依然会吸附到最近的横线上</p>
+<p><img src="/assets/img/content/一又二分之一拍音符演示.avif" alt="一又二分之一拍音符演示"></p>
+<p>放下一个音符后，软件会帮您自动选择这个音符，您也可以通过点击一个音符来进行编辑（可编辑的内容详见 <RouterLink to="/basis/inside-chart/note.html">音符</RouterLink>）</p>
+<p>对于非 Hold 音符的结束时间不可编辑，偏白的为下拉列表，点击后会出现可选项</p>
+<p>若未开启<strong>部分编辑自动保存</strong>选项，则需要点击保存或者按下 Enter 键来进行修改的实际执行；点击取消会还原掉未保存的编辑；点击删除，或按下 Delete 键，或按住 D 键的同时按下鼠标右键以删除该音符。点击箭头或 ESC 键以退出编辑</p>
+<div class="custom-container warning"><p class="custom-container-title">注意</p>
+<p>快捷编辑：A 键反转 <mjx-container class="MathJax" jax="SVG" style="direction: ltr;"><svg style="overflow: visible; min-height: 1px; min-width: 1px; vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.928ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 852 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D44B" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z" style="stroke-width: 3;"/></g></g></g></svg></mjx-container> 坐标，S 键翻转下落朝向</p>
+</div>
+<p><strong>音符可以被拖动</strong>。按住 Z 键，点击一个音符并用鼠标左键进行拖动可以改变其开始的时间与坐标；用鼠标右键进行拖动可以改变其结束的时间与坐标（仅 Hold）</p>
+<p>如果您在某些时候只想进行音符的编辑，不考虑事件，可以点击工具栏中<strong>视图切换</strong>按钮（详见 <RouterLink to="/basis/UI/tools-bar.html">工具栏</RouterLink>），可以在 <strong>只编辑音符</strong> 的模式 和 <strong>共同编辑</strong> 视图之间切换，切换快捷键是 Alt + N</p>
+<p><img src="/assets/img/content/编辑音符视图演示.avif" alt="编辑音符视图演示"></p>
+<p>选中音符后，按住 CTRL 键并使用鼠标滚轮可以调整音符的宽度</p>
+</div></template>
