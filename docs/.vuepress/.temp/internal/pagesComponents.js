@@ -11,6 +11,8 @@ export const pagesComponents = {
   "v-eb3703fe": defineAsyncComponent(() => import(/* webpackChunkName: "v-eb3703fe" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/prepare/index.html.vue")),
   // path: /basis/chart/create-a-chart.html
   "v-833f3d06": defineAsyncComponent(() => import(/* webpackChunkName: "v-833f3d06" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/create-a-chart.html.vue")),
+  // path: /basis/chart/intro%20-%20%E5%89%AF%E6%9C%AC.html
+  "v-688288dc": defineAsyncComponent(() => import(/* webpackChunkName: "v-688288dc" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/intro - 副本.html.vue")),
   // path: /basis/chart/intro.html
   "v-d04296b0": defineAsyncComponent(() => import(/* webpackChunkName: "v-d04296b0" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/intro.html.vue")),
   // path: /basis/chart/
@@ -25,14 +27,6 @@ export const pagesComponents = {
   "v-15e0bb3d": defineAsyncComponent(() => import(/* webpackChunkName: "v-15e0bb3d" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/judgment-line-management.html.vue")),
   // path: /basis/charting/
   "v-3a769cc1": defineAsyncComponent(() => import(/* webpackChunkName: "v-3a769cc1" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/index.html.vue")),
-  // path: /basis/inside-chart/event.html
-  "v-9a580052": defineAsyncComponent(() => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.vue")),
-  // path: /basis/inside-chart/line.html
-  "v-b29585e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.vue")),
-  // path: /basis/inside-chart/note.html
-  "v-7bea8bcf": defineAsyncComponent(() => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.vue")),
-  // path: /basis/inside-chart/
-  "v-0160ef58": defineAsyncComponent(() => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.vue")),
   // path: /basis/UI/edit-window.html
   "v-6374ccd2": defineAsyncComponent(() => import(/* webpackChunkName: "v-6374ccd2" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/edit-window.html.vue")),
   // path: /basis/UI/functions.html
@@ -49,6 +43,14 @@ export const pagesComponents = {
   "v-44375c10": defineAsyncComponent(() => import(/* webpackChunkName: "v-44375c10" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/status-bar.html.vue")),
   // path: /basis/UI/tools-bar.html
   "v-cfeb82ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-cfeb82ee" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/tools-bar.html.vue")),
+  // path: /basis/inside-chart/event.html
+  "v-9a580052": defineAsyncComponent(() => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.vue")),
+  // path: /basis/inside-chart/line.html
+  "v-b29585e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.vue")),
+  // path: /basis/inside-chart/note.html
+  "v-7bea8bcf": defineAsyncComponent(() => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.vue")),
+  // path: /basis/inside-chart/
+  "v-0160ef58": defineAsyncComponent(() => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/404.html.vue")),
 }

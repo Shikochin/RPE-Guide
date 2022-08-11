@@ -9,6 +9,8 @@ export const pagesData = {
   "v-eb3703fe": () => import(/* webpackChunkName: "v-eb3703fe" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/prepare/index.html.js").then(({ data }) => data),
   // path: /basis/chart/create-a-chart.html
   "v-833f3d06": () => import(/* webpackChunkName: "v-833f3d06" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/create-a-chart.html.js").then(({ data }) => data),
+  // path: /basis/chart/intro%20-%20%E5%89%AF%E6%9C%AC.html
+  "v-688288dc": () => import(/* webpackChunkName: "v-688288dc" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/intro - 副本.html.js").then(({ data }) => data),
   // path: /basis/chart/intro.html
   "v-d04296b0": () => import(/* webpackChunkName: "v-d04296b0" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/chart/intro.html.js").then(({ data }) => data),
   // path: /basis/chart/
@@ -23,14 +25,6 @@ export const pagesData = {
   "v-15e0bb3d": () => import(/* webpackChunkName: "v-15e0bb3d" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/judgment-line-management.html.js").then(({ data }) => data),
   // path: /basis/charting/
   "v-3a769cc1": () => import(/* webpackChunkName: "v-3a769cc1" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/charting/index.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/event.html
-  "v-9a580052": () => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/line.html
-  "v-b29585e6": () => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/note.html
-  "v-7bea8bcf": () => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.js").then(({ data }) => data),
-  // path: /basis/inside-chart/
-  "v-0160ef58": () => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.js").then(({ data }) => data),
   // path: /basis/UI/edit-window.html
   "v-6374ccd2": () => import(/* webpackChunkName: "v-6374ccd2" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/edit-window.html.js").then(({ data }) => data),
   // path: /basis/UI/functions.html
@@ -47,6 +41,14 @@ export const pagesData = {
   "v-44375c10": () => import(/* webpackChunkName: "v-44375c10" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/status-bar.html.js").then(({ data }) => data),
   // path: /basis/UI/tools-bar.html
   "v-cfeb82ee": () => import(/* webpackChunkName: "v-cfeb82ee" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/UI/tools-bar.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/event.html
+  "v-9a580052": () => import(/* webpackChunkName: "v-9a580052" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/event.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/line.html
+  "v-b29585e6": () => import(/* webpackChunkName: "v-b29585e6" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/line.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/note.html
+  "v-7bea8bcf": () => import(/* webpackChunkName: "v-7bea8bcf" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/note.html.js").then(({ data }) => data),
+  // path: /basis/inside-chart/
+  "v-0160ef58": () => import(/* webpackChunkName: "v-0160ef58" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/basis/inside-chart/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/Projects/RPE Guide with VuePress/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }
