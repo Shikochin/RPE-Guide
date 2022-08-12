@@ -1,7 +1,21 @@
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
 node_modules
 
-docs/.vuepress/dist/
+# TypeScript cache
+*.tsbuildinfo
 
-docs/.vuepress/.cache/
+# Optional npm cache directory
+.npm
 
-docs/.vuepress/.temp/
+# vuepress build output
+*dist
+
+# vuepress v2.x temp and cache directory
+*.temp
+*.cache
