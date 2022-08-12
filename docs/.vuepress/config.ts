@@ -4,11 +4,21 @@ const { defaultTheme } = require('@vuepress/theme-default');
 
 const { backToTopPlugin } = require('@vuepress/plugin-back-to-top');
 
+// Mathjax3
+
 const { viteBundler } = require('vuepress')
 
 const mathjax = require('markdown-it-mathjax3');
 
 const customElement = ['maction', 'math', 'menclose', 'merror', 'mfenced', 'mfrac', 'mi', 'mmultiscripts', 'mn', 'mo', 'mover', 'mpadded', 'mphantom', 'mroot', 'mrow', 'ms', 'mspace', 'msqrt', 'mstyle', 'msub', 'msubsup', 'msup', 'mtable', 'mtd', 'mtext', 'mtr', 'munder', 'munderover', 'semantics', 'mjx-container', 'g'];
+
+// Algolia Doc Search
+
+// const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+
+// Sitemap
+
+const { sitemapPlugin } = require('vuepress-plugin-sitemap2');
 
 export default defineUserConfig({
     extendsMarkdown: md => {
@@ -29,6 +39,12 @@ export default defineUserConfig({
     ],
     plugins: [
         backToTopPlugin(),
+        // docsearchPlugin({
+
+        // }),
+        sitemapPlugin({
+            hostname: 'rpe.chinq.xyz'
+        })
     ],
 
     lang: 'zh-CN',
