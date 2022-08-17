@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "git@github.com:CQBerry/RPE-Guide.git",
   "author": "CQBerry <chinq6624@gmail.com>",
-  "license": "CC BY-SA 4.0",
+  "license": "CC-BY-SA-4.0",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@vuepress/bundler-vite": "^2.0.0-beta.45",
+    "@vuepress/plugin-pwa": "^2.0.0-beta.49",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.49",
     "@vuepress/plugin-search": "^2.0.0-beta.49",
     "markdown-it": "^13.0.1",
     "markdown-it-mathjax3": "^4.3.1"

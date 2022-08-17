@@ -1,7 +1,7 @@
 import { ViteBundlerOptions } from 'vuepress';
 const customElements = ['mjx-container', 'g'];
 
-const bundlerOptions: ViteBundlerOptions = {
+const bundlerConfigs: ViteBundlerOptions = {
     vuePluginOptions: {
         template: {
             compilerOptions: {
@@ -11,4 +11,4 @@ const bundlerOptions: ViteBundlerOptions = {
     },
 }
 
-export default bundlerOptions;
+export default bundlerConfigs;

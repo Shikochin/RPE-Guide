@@ -1,11 +1,8 @@
-/*
- * Custom Styles here.
- */
 @font-face {
     font-family: "Phigros";
     src: url("/assets/font/Phigros.woff2") format("woff2")
 }
 
-* {
-    font-family: 'Phigros' !important;
+body {
+    font-family: 'Phigros';
 }

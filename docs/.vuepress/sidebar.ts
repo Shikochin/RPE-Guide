@@ -1,6 +1,6 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
-const sidebarConfig: SidebarConfig = [{
+const sidebarConfigs: SidebarConfig = [{
     text: '准备',
     link: '/prepare/',
     children: [
@@ -44,10 +44,12 @@ const sidebarConfig: SidebarConfig = [{
                 '/basis/charting/edit-notes',
                 '/basis/charting/edit-events',
                 '/basis/charting/batch-edit-basics',
-                '/basis/charting/judgment-line-management',
+                '/basis/charting/line-management',
+                '/basis/charting/curve-fill-notes',
+                '/basis/charting/undo-and-redo'
             ]
         }
     ]
 }]
 
-export default sidebarConfig;
+export default sidebarConfigs;

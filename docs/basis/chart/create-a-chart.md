@@ -6,20 +6,27 @@
 
 ## RPE 主界面
 
-![RPE 主界面](/assets/img/content/RPE主界面.avif)
+![RPE 主界面](/assets/imgs/contents/RPE主界面.avif)
 
 这是 RPE 的主界面，分为三个部分，从左到右分别是：
 
 - 导出、导入、添加谱面
+
   - 导出：导出谱面会在 `[RPE 目录]/Resources` 目录下导出打包好的 PEZ（打包的谱面） 文件
+
   - 导入：导入谱面可以导入 PEZ 文件
+
   - 添加：选择音乐文件（MP3，WAV 或 OGG）和图片文件（JPG / JPEG 或 PNG），并填写谱面相关信息。之后会在 `[RPE 目录]/Resources` 目录下生成一个由随机生成的八位数字为名的文件夹，里面存放了选择的音乐文件、图片文件和一个空谱面文件
+
 - 谱面列表
+
   - 使用鼠标滚轮可以上下切换歌曲
+
 - 谱面基本信息
+
   - 点击编辑即可编辑谱面信息
 
-![编辑谱面信息界面](/assets/img/content/编辑谱面信息界面.avif)
+![编辑谱面信息界面](/assets/imgs/contents/编辑谱面信息界面.avif)
 
 - 点击删除将会在谱面列表中删除该谱面，但并不会删除 `[RPE 目录]/Resources` 目录下的谱面文件夹
 
@@ -27,13 +34,16 @@
 
 点击添加谱面，选择好音乐文件和谱面文件后，填写相关信息即可完成谱面的创建（若出现问题，请参阅 [常见问题/添加谱面闪退](../../prepare/preparetion.md#常见问题)）
 
-![填写谱面信息](/assets/img/content/填写谱面信息.avif)
+![填写谱面信息](/assets/imgs/contents/填写谱面信息.avif)
 
-相关信息：
+### 相关信息：
 
 - 谱面名称
+
 - 作曲者
+
 - 谱面设计
+
 - 基础 [BPM](https://zh.wikipedia.org/wiki/速度_(音樂)#量度音樂速度)：可通过导入 [Malody](https://m.mugzone.net/) 测得，非常重要，请务必填写准确
 
 创建好后将会直接进入编辑谱面的区域

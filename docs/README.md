@@ -8,6 +8,36 @@
 
 如果您是 Windows 8 及以上用户，请在 Microsoft Store 中下载 [AV1 视频扩展](https://www.microsoft.com/store/productId/9MVZQVXJBQ9V)
 
+### 离线阅读
+
+因为目前图片加载的速度还不够优秀，我更推荐离线阅读
+
+```sh
+git clone https://github.com/CQBerry/RPE-Guide.git
+```
+
+克隆到本地后使用您喜欢的包管理工具安装包
+
+```sh
+npm install
+
+// 或 yarn install
+
+// 或 pnpm install
+```
+
+之后通过
+
+```sh
+npm run dev
+
+// 或 yarn dev
+
+// 或 pnpm run dev
+```
+
+在本地开启服务器，之后通过浏览器访问即可（默认地址 `localhost:8080`）
+
 ## 版权
 
 本文档所有页面，除特殊声明外，均采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 许可协议
