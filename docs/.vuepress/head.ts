@@ -9,7 +9,7 @@ const headConfigs: HeadConfig[] = [
     ['link', { rel: "shortcut icon", href: "/assets/imgs/icons/favicon.ico" }],
     ['link', { rel: "msapplication-TileColor", content: "#da532c" }],
     ['link', { rel: "msapplication-config", content: "/browserconfig.xml" }],
-    ['link', { rel: "theme-color", content: "#3eaf7c" }],
+    ['meta', { name: "theme-color", content: "#3eaf7c" }],
 ]
 
 export default headConfigs;
