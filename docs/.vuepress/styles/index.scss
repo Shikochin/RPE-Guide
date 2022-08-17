@@ -1,9 +1,11 @@
 @font-face {
     font-family: "Phigros";
-    src: url("/assets/font/Phigros.woff2") format("woff2")
+    font-style: normal;
+    font-weight: bold;
+    src: url("/assets/font/Phigros.woff2") format("woff2");
+    font-display: swap;
 }
 
 body {
     font-family: 'Phigros';
-    font-display: swap;
 }
