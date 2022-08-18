@@ -21,7 +21,7 @@ next: ./prepare/
 
 3. 提交 [Pull request](https://github.com/CQBerry/RPE-Guide/pulls)，并指明修改的理由（或者新页面的作用）
 
-4. 大功告成，等待 merge！（或 close 🫤）
+4. 大功告成，等待回应 🥰
 
 ## 图片问题
 
@@ -33,31 +33,19 @@ next: ./prepare/
 
 因为目前图片加载的速度还不够优秀，我更推荐离线阅读
 
-```sh
-git clone https://github.com/CQBerry/RPE-Guide.git
-```
-
-克隆到本地后使用您喜欢的包管理工具安装包
+使用 [git](https://git-scm.com/) 克隆仓库
 
 ```sh
-npm install
-
-// 或 yarn install
-
-// 或 pnpm install
+git clone https://github.com/CQBerry/RPE-Guide.git # 克隆仓库
 ```
 
-之后通过
+使用 [yarn](https://yarnpkg.com/) 安装依赖，并开启本地服务器，即可在浏览器中访问（默认地址 `localhost:8080`）
 
 ```sh
-npm run dev
+yarn install # 安装依赖
 
-// 或 yarn dev
-
-// 或 pnpm run dev
+yarn dev # 开启本地服务器
 ```
-
-在本地开启服务器，之后通过浏览器访问即可（默认地址 `localhost:8080`）
 
 ## 版权
 
