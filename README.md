@@ -13,9 +13,9 @@ git clone https://github.com/CQBerry/RPE-Guide.git --depth 1
 
 cd RPE-Guide
 
-npm install
+yarn
 
-npm run dev
+yarn dev
 ```
 
 将会在本地开启服务器，之后通过浏览器访问即可（默认地址 `localhost:8080`）。
