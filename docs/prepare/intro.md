@@ -1,7 +1,6 @@
 ---
-title: 简介
+prev: ./
 ---
-
 # 简介
 
 ## 什么是 Re:Phiedit？

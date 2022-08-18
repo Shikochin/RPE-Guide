@@ -1,3 +1,7 @@
+---
+prev: ../../prepare/preparetion
+next: create-a-chart
+---
 # 谱面
 
 在本节中，你将学习以下内容：

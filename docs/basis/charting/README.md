@@ -1,10 +1,14 @@
+---
+prev: ../UI/status-bar
+next: handle-notes
+---
 # 写谱
 
 在本节中，你将学习到以下知识：
 
-1. [处理音符](./edit-notes.md)
+1. [处理音符](./handle-notes.md)
 
-2. [处理事件](./edit-events.md)
+2. [处理事件](./handle-events.md)
 
 3. [🌟 批量编辑的基础知识](./batch-edit-basics.md)
 

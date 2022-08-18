@@ -7,5 +7,13 @@
 }
 
 body {
-    font-family: 'Phigros';
+    font-family: Phigros, 'Jetbrains Mono', 'Cascadia Code', Consolas;
+}
+
+code {
+    font-family: Phigros, 'Jetbrains Mono', 'Cascadia Code', Consolas
+}
+
+pre>code {
+    font-family: 'Jetbrains Mono', 'Cascadia Code', Consolas;
 }

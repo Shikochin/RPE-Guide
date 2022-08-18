@@ -41,15 +41,23 @@ const sidebarConfigs: SidebarConfig = [{
             text: '写谱',
             link: '/basis/charting/',
             children: [
-                '/basis/charting/edit-notes',
-                '/basis/charting/edit-events',
+                '/basis/charting/handle-notes',
+                '/basis/charting/handle-events',
                 '/basis/charting/batch-edit-basics',
                 '/basis/charting/line-management',
                 '/basis/charting/curve-fill-notes',
                 '/basis/charting/undo-and-redo'
             ]
+        }, {
+            text: '其他',
+            link: '/basis/others/',
+            children: [
+                '/basis/others/settings',
+            ]
         }
     ]
+}, {
+    text: "进阶"
 }]
 
 export default sidebarConfigs;

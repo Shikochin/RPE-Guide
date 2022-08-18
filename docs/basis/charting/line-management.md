@@ -4,7 +4,7 @@
 
 点击信息窗口中的 ***判定线管理*** 将看到如下画面
 
-![判定线管理演示](/assets/imgs/contents/判定线管理演示.avif)
+![判定线管理](/assets/imgs/contents/判定线管理.avif)
 
 ### 当前状态
 
@@ -26,11 +26,11 @@
 
 - t, d, f, h, Events 前的数字分别表示该线上未被判定（完）的 Tap、Drag、Flick、Hold 以及事件的数量
 
-![判定线信息演示](/assets/imgs/contents/判定线信息演示.avif)
+![判定线信息](/assets/imgs/contents/判定线信息.avif)
 
 点击全局状态上方右侧的下拉列表，出现筛选项（另一个下拉框用于只列出某个组内的判定线）
 
-- All（默认）： 列出所有线
+- All： 列出所有线
 
 - VisL ：只列出 透明度 $> 0$ 的线
 
@@ -40,7 +40,7 @@
 
 ### 全局状态
 
-![全局状态演示](/assets/imgs/contents/全局状态演示.avif)
+![全局状态](/assets/imgs/contents/全局状态.avif)
 
 ***遮罩属性*** 指的是判定线是否显示跨线的音符：
 
@@ -58,10 +58,10 @@
 
 判定线材质文件默认为 `line.png`，若更改需将要用到的图片放在 `[RPE 目录]/Resources` 文件夹下。如果该线没有 ***y 轴缩放*** 事件（关于 y轴缩放事件，详见 特殊事件 （未撰写）），则会将设置中的线宽作为 y 轴缩放；若没有 ***颜色渐变事件***（关于 颜色渐变事件，详见 特殊事件 （未撰写）），则会将设置中的判定线默认颜色作为颜色
 
-![判定线材质演示](/assets/imgs/contents/判定线材质演示.avif)
+![判定线材质](/assets/imgs/contents/判定线材质.avif)
 
 Z 轴坐标决定了判定线的渲染顺序，$Z$ 坐标大的判定线会在 $Z$ 坐标小的判定线上面
 
-![Z轴坐标演示](/assets/imgs/contents/Z轴坐标演示.avif)
+![Z轴坐标](/assets/imgs/contents/Z轴坐标.avif)
 
 点击取消以还原掉未保存的编辑，点击确认以保存编辑

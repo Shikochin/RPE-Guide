@@ -1,6 +1,9 @@
+---
+next: ../charting
+---
 # 状态栏
 
-![状态栏演示](/assets/imgs/contents/状态栏演示.avif)
+![状态栏](/assets/imgs/contents/状态栏.avif)
 
 最后介绍一下窗口下侧的状态栏（点击 i 按钮（不是 I 键）以显示）
 
@@ -16,6 +19,6 @@
 
 - ***所有线的总事件数***
 
-- ***Tips***：默认开启，10 秒钟切换一次，可以在设置中关闭
+- ***Tips***：10 秒钟切换一次，默认开启，可以在设置中关闭
 
 ![Tips](/assets/imgs/contents/Tips.avif)
