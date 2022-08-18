@@ -31,7 +31,9 @@ next: ./prepare/
 
 如果您是 Windows 8 及以上用户，请在 Microsoft Store 中下载 [AV1 视频扩展](https://www.microsoft.com/store/productId/9MVZQVXJBQ9V)
 
-### 离线阅读（推荐，目前图片的加载速度还不够优秀）
+### 离线阅读
+
+推荐使用离线阅读，目前图片的加载速度还不够优秀
 
 ```sh
 git clone https://github.com/CQBerry/RPE-Guide.git --depth 1
