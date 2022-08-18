@@ -33,19 +33,15 @@ next: ./prepare/
 
 ### 离线阅读
 
-推荐，因为目前图片加载的速度还不够优秀）：
-
 ```sh
 git clone https://github.com/CQBerry/RPE-Guide.git --depth 1
 
 cd RPE-Guide
 
-yarn
+yarn install # 安装依赖
 
-yarn dev
+yarn dev # 开启本地服务器
 ```
-
-将会在本地开启服务器，之后通过浏览器访问即可（默认地址 `localhost:8080`）
 
 ## 版权
 

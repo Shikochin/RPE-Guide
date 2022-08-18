@@ -21,5 +21,6 @@
     "@vuepress/plugin-search": "^2.0.0-beta.49",
     "markdown-it": "^13.0.1",
     "markdown-it-mathjax3": "^4.3.1"
-  }
+  },
+  "packageManager": "yarn@3.2.2"
 }
