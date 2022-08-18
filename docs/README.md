@@ -9,19 +9,21 @@ next: ./prepare/
 
 我希望与更多人一起维护本指南，你可以对文章中不合理的部分进行修改、可以补充我描述不全面的部分、你甚至可以写一个新的页面！只要理由足够合理，我就会听取你的建议
 
-1. Fork 本仓库
+1. Fork 本仓库；
 
 2. 修改页面或撰写新页面
 
 ::: tip
-如有图片请使用 [AVIF](https://avif.io) 格式，并放置在 `docs/.vuepress/public/assets/imgs/contents/` 下
+如有图片请使用 [AVIF](https://avif.io) 格式，并放置在 `docs/.vuepress/public/assets/imgs/contents/` 下；
 
 如果是撰写新页面，请同时在 `docs/.vuepress/sidebar.ts` 中添加该页面的索引（格式请参考 [sidebar](https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#sidebar)），并在页面的 Frontmatter 部分中添加相应的 [前后页面链接](https://v2.vuepress.vuejs.org/zh/reference/default-theme/frontmatter.html#prev)（使用相对路径）
 :::
 
-3. 提交 [Pull request](https://github.com/CQBerry/RPE-Guide/pulls)，并指明修改的理由（或者新页面的作用）
+3. 提交 [Pull request](https://docs.github.com/pull-requests)，并说明修改的理由（或者新页面的作用）；
 
-4. 大功告成，等待 merge！（或 close 🫤）
+4. 等待 review，如有修改意见，请按照修改意见修改；
+
+5. 大功告成！
 
 ## 图片问题
 
@@ -31,33 +33,19 @@ next: ./prepare/
 
 ### 离线阅读
 
-因为目前图片加载的速度还不够优秀，我更推荐离线阅读
+推荐，因为目前图片加载的速度还不够优秀）：
 
 ```sh
-git clone https://github.com/CQBerry/RPE-Guide.git
+git clone https://github.com/CQBerry/RPE-Guide.git --depth 1
+
+cd RPE-Guide
+
+yarn
+
+yarn dev
 ```
 
-克隆到本地后使用您喜欢的包管理工具安装包
-
-```sh
-npm install
-
-// 或 yarn install
-
-// 或 pnpm install
-```
-
-之后通过
-
-```sh
-npm run dev
-
-// 或 yarn dev
-
-// 或 pnpm run dev
-```
-
-在本地开启服务器，之后通过浏览器访问即可（默认地址 `localhost:8080`）
+将会在本地开启服务器，之后通过浏览器访问即可（默认地址 `localhost:8080`）
 
 ## 版权
 
