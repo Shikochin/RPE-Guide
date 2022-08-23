@@ -8,7 +8,7 @@ prev: ../basis/others/settings
 
 在功能区点击 ***谱面纠错***，出现如下界面
 
-![谱面纠错和三个Error](/assets/imgs/contents/谱面纠错和三个Error.avif)
+![谱面纠错和三个 Error](/assets/imgs/contents/谱面纠错和三个Error.avif)
 
 纠错信息按所属分为音符、事件、其他，按严重等级分为 ***Error***（错误，红色），***Warning***（警告，黄色），***Caution***（注意，绿色）。如果谱面有 Error，则纠错指示器第一条线会变红，提醒你去查看谱面纠错
 

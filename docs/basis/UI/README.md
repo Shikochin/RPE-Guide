@@ -14,4 +14,4 @@ next: tools-bar
 6. [🌟 功能区](./functions.md)
 7. [状态栏](./status-bar.md)
 
-![编辑谱面UI](/assets/imgs/contents/编辑谱面UI.avif)
+![编辑谱面 UI](/assets/imgs/contents/编辑谱面UI.avif)

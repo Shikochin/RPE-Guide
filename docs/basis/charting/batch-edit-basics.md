@@ -28,7 +28,7 @@
 
 ![粘贴](/assets/imgs/contents/粘贴.avif)
 
-- CTRL + B 为镜像粘贴， 即将剪切板内所有音符 X 坐标取反后粘贴（可以跨线粘贴）
+- CTRL + B 为镜像粘贴，即将剪切板内所有音符 X 坐标取反后粘贴（可以跨线粘贴）
 
 ![镜像粘贴](/assets/imgs/contents/镜像粘贴.avif)
 

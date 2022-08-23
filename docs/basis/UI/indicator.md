@@ -10,4 +10,4 @@
 
 如果谱面部分位置出现 ***MoveX 和 MoveY 事件不等时***，则第二条指示线会变红（如果谱面中所有 MoveX 和 MoveY 事件均等时，但设置中未开启 保持 XY 事件绑定，则指示线变黄）
 
-![XY事件不等时](/assets/imgs/contents/XY事件不等时.avif)
+![XY 事件不等时](/assets/imgs/contents/XY事件不等时.avif)

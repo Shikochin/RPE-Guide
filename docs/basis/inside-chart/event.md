@@ -18,15 +18,15 @@ next: ../UI
 
 - ***Rotate***：判定线旋转事件（角度变化事件）
 
-![Rotate事件](/assets/imgs/contents/Rotate事件.avif)
+![Rotate 事件](/assets/imgs/contents/Rotate事件.avif)
 
 - ***Alpha***：判定线透明度变化事件
 
-![Alpha事件](/assets/imgs/contents/Alpha事件.avif)
+![Alpha 事件](/assets/imgs/contents/Alpha事件.avif)
 
 - ***Speed***：判定线速度变化事件
 
-![Speed事件](/assets/imgs/contents/Speed事件.avif)
+![Speed 事件](/assets/imgs/contents/Speed事件.avif)
 
 每个事件由以下五种属性组成
 
@@ -66,7 +66,7 @@ Sine 后缀表示 ***正弦型***，Quad 为 ***二次型***... 一般后缀越�
 - 结束： $2\frac{1}{2}$ （第 二又二分之一 拍）
 - 头部： $-200$
 - 尾部： $0$
-- 缓动： 2（Out Sine）
+- 缓动：2（Out Sine）
 
 ![实例](/assets/imgs/contents/实例.avif)
 

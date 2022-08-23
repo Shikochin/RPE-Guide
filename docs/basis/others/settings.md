@@ -116,7 +116,7 @@ next: ../../advanced/chart-correction
 
 - 实时背景透明度倍率：开启实时预览（详见 [工具栏](../UI/tools-bar.md)）时播放窗口的透明化程度，0 表示完全透明（背景完全显示），1 表示完全不透明（背景完全不显示，显示为黑色）
 
-![实时背景透明度倍率调整为1](/assets/imgs/contents/实时背景透明度倍率调整为1.avif)
+![实时背景透明度倍率调整为 1](/assets/imgs/contents/实时背景透明度倍率调整为1.avif)
 
 - 预览窗口大小：预览窗口 `View` 的分辨率大小，可以为任何比例
 
@@ -130,15 +130,15 @@ next: ../../advanced/chart-correction
 
 若关闭，则 MoveX 和 MoveY 事件不会产生关联，能够放置不同时的 XY 事件，此时纠错指示器第二条线会变为黄色
 
-![关闭保持XY事件绑定](/assets/imgs/contents/关闭保持XY事件绑定.avif)
+![关闭保持 XY 事件绑定](/assets/imgs/contents/关闭保持XY事件绑定.avif)
 
 在该情况下，放置一组不同时的 MoveX, MoveY 事件，则会破坏谱面的等时属性（即 MoveX 和 MoveY 的时间一一对应），纠错指示器第二条线会变为红色
 
-![一组不等时的MoveX和MoveY事件](/assets/imgs/contents/一组不等时的MoveX和MoveY事件.avif)
+![一组不等时的 MoveX 和 MoveY 事件](/assets/imgs/contents/一组不等时的MoveX和MoveY事件.avif)
 
 同时设置中的保持 XY 绑定选项将无法勾选
 
-![保持XY事件绑定无法勾选](/assets/imgs/contents/保持XY事件绑定无法勾选.avif)
+![保持 XY 事件绑定无法勾选](/assets/imgs/contents/保持XY事件绑定无法勾选.avif)
 
 如果删除掉不同时的 MoveX, MoveY 事件，纠错指示器第二条线会重新变为黄色，代表谱面恢复了等时属性，此时可以勾选保持 XY 绑定，线会重新变为绿色
 
@@ -178,9 +178,9 @@ Hold 比较特殊，一个 Hold 音符如果包含另一个音符（这个 Hold 
 
 如果两个 Hold 首尾相连（或交叉）时，也会报错：Error: Hold & Hold Overlapped 和 Caution: Hold Sticked?
 
-![碰撞距离1](/assets/imgs/contents/碰撞距离1.avif)
+![碰撞距离 1](/assets/imgs/contents/碰撞距离1.avif)
 
-![碰撞距离2](/assets/imgs/contents/碰撞距离2.avif)
+![碰撞距离 2](/assets/imgs/contents/碰撞距离2.avif)
 
 - 读谱时间下界（单位为秒）：当一个音符从它在可视屏幕中出现到它被判定，时间小于该设置项时，则会报错：Caution: Short Readtime( $n$ ms）
 
