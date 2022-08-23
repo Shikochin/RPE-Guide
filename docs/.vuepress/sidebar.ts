@@ -57,7 +57,10 @@ const sidebarConfigs: SidebarConfig = [{
         }
     ]
 }, {
-    text: "进阶"
+    text: "进阶",
+    children: [
+        '/advanced/chart-correction'
+    ]
 }]
 
 export default sidebarConfigs;

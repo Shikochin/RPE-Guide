@@ -1,5 +1,6 @@
 ---
 prev: ./
+next: ../../advanced/chart-correction
 ---
 # 🌟 设置界面
 
