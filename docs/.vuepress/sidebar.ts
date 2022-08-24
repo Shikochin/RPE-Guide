@@ -9,13 +9,13 @@ const sidebarConfigs: SidebarConfig = [{
     ]
 }, {
     text: '基础',
-    children: [
+    children: ['/basis/rpe-main-interface',
         {
             text: '谱面',
             link: '/basis/chart/',
             children: [
                 '/basis/chart/create-a-chart',
-                '/basis/chart/intro',
+                '/basis/chart/about-chart',
             ]
         }, {
             text: '谱面之下',
