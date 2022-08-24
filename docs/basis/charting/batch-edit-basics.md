@@ -43,29 +43,29 @@
 
 多选音符，选择执行项，点击执行按钮（手型按钮）会导致如下变化：
 
-- ***MirrorY***：多选的每个音符按照 Y 轴翻转（以下省略 **多选的**）。
+- MirrorY：多选的每个音符按照 Y 轴翻转（以下省略 **多选的**）。
 
 ![MirrorY](/assets/imgs/contents/MirrorY.avif)
 
-- ***MirrorMid***：每个音符按照选中的中心（排序后中间音符的 $X$ 坐标）翻转。
+- MirrorMid：每个音符按照选中的中心（排序后中间音符的 $X$ 坐标）翻转。
 
 ![MirrorMid](/assets/imgs/contents/MirrorMid.avif)
 
-- ***SideSwitch***：每个音符反转下落方向。
+- SideSwitch：每个音符反转下落方向。
 
 ![SideSwitch](/assets/imgs/contents/SideSwitch.avif)
 
-- ***SideUp / Down***：音符下落方向全部置为 Up / Down。
+- SideUp / Down：音符下落方向全部置为 Up / Down。
 
 ![SideUp](/assets/imgs/contents/SideUp.avif)
 
 ![SideDown](/assets/imgs/contents/SideDown.avif)
 
-- ***ToReal / Fake*** 音符全部置为真 / 假音符。
-- ***ToTap / Flick / Drag*** 全部置为 Tap / Flick / Drag 音符（**对 Hold 音符无效**）。
+- ToReal / Fake：音符全部置为真 / 假音符。
+- ToTap / Flick / Drag：全部置为 Tap / Flick / Drag 音符（**对 Hold 音符无效**）。
 
 ![ToFlick](/assets/imgs/contents/ToFlick.avif)
 
-- ***AttachX*** 每个音符吸附到最近的竖线上（可用于修改竖线条数后的维护）。
+- AttachX：每个音符吸附到最近的竖线上（可用于修改竖线条数后的维护）。
 
 ![AttachX](/assets/imgs/contents/AttachX.avif)
