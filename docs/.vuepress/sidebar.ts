@@ -59,7 +59,8 @@ const sidebarConfigs: SidebarConfig = [{
 }, {
     text: "进阶",
     children: [
-        '/advanced/chart-correction'
+        '/advanced/chart-correction',
+        '/advanced/curve-trajectory-generation'
     ]
 }]
 
