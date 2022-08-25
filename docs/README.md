@@ -35,7 +35,7 @@ git clone https://github.com/CQBerry/RPE-Guide.git --depth 1
 
 cd RPE-Guide
 
-yarn install # 安装依赖。
+yarn install # 安装依赖，
 
 yarn dev # 开启本地服务器，默认端口 8080。
 ```

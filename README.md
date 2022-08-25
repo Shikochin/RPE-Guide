@@ -13,7 +13,7 @@ git clone https://github.com/CQBerry/RPE-Guide.git --depth 1
 
 cd RPE-Guide
 
-yarn install # 安装依赖。
+yarn install # 安装依赖，
 
 yarn dev # 开启本地服务器，默认端口 8080。
 ```
@@ -26,6 +26,7 @@ yarn dev # 开启本地服务器，默认端口 8080。
 2. 修改页面或撰写新页面（页面中请全部使用相对路径）；
 
 > 如有图片请使用 [AVIF](https://avif.io) 格式，并放置在 `docs/.vuepress/public/assets/imgs/contents/` 下
+>
 > 如果是撰写新页面，请同时在 `docs/.vuepress/sidebar.ts` 中添加该页面的索引（格式请参考 [sidebar](https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#sidebar)），并在页面的 Frontmatter 部分中添加相应的 [前后页面链接](https://v2.vuepress.vuejs.org/zh/reference/default-theme/frontmatter.html#prev)
 
 3. 提交 [Pull request](https://docs.github.com/pull-requests)，并说明修改的理由（或者新页面的作用）；
