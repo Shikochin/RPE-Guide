@@ -2,7 +2,7 @@
 
 ![编辑界面](/assets/imgs/contents/编辑界面.avif)
 
-按下 TAB 键可以显示 / 关闭在编辑窗口中显示当前线的属性。
+按下 `TAB` 键可以显示 / 关闭在编辑窗口中显示当前线的属性。
 
 ![当前线信息](/assets/imgs/contents/当前线信息.avif)
 
