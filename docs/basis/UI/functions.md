@@ -30,6 +30,6 @@
 
 ![谱面纠错](/assets/imgs/contents/谱面纠错.avif)
 
-- ***生成曲线轨迹***：生成当前判定线的任意参数方程轨迹（生成 MoveX 和 MoveY 事件，请参阅 曲线轨迹生成（未撰写）章节）。
+- ***生成曲线轨迹***：生成当前判定线的任意参数方程轨迹（生成 MoveX 和 MoveY 事件，请参阅 [曲线轨迹生成](../../advanced/curve-trajectory-generation.md)）。
 
 ![生成曲线轨迹](/assets/imgs/contents/生成曲线轨迹.avif)

@@ -61,7 +61,8 @@ const sidebarConfigs: SidebarConfig = [{
     children: [
         '/advanced/chart-correction',
         '/advanced/curve-trajectory-generation',
-        '/advanced/batch-edit-advanced'
+        '/advanced/batch-edit-advanced',
+        '/advanced/special-events'
     ]
 }]
 

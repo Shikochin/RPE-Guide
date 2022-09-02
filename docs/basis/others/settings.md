@@ -45,7 +45,7 @@ next: ../../advanced/chart-correction
 
 ![标注判定线数字](/assets/imgs/contents/标注判定线数字.avif)
 
-- 判定线默认颜色：RGB 颜色值，若该线上有任何颜色渐变事件（关于颜色事件，请参阅 特殊事件（未撰写）），则判定线默认颜色会被忽略。
+- 判定线默认颜色：RGB 颜色值，若该线上有任何颜色渐变事件（关于颜色事件，请参阅 [特殊事件](../../advanced/special-events.md)），则判定线默认颜色会被忽略。
 
 ![判定线默认颜色示](/assets/imgs/contents/判定线默认颜色.avif)
 
