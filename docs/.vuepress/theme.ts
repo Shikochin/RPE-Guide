@@ -1,4 +1,4 @@
-import { DefaultThemeOptions } from '@vuepress/theme-default';
+import {DefaultThemeOptions} from '@vuepress/theme-default';
 import sidebarConfigs from './sidebar';
 
 const themeConfigs: DefaultThemeOptions = {

@@ -1,4 +1,4 @@
-import { HeadConfig } from 'vuepress';
+import {HeadConfig} from 'vuepress';
 
 const headConfigs: HeadConfig[] = [
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/imgs/icons/apple-touch-icon.png" }],

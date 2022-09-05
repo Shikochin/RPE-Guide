@@ -1,8 +1,8 @@
-import type { PluginConfig } from 'vuepress';
-import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
-import { searchPlugin } from '@vuepress/plugin-search'
-import { pwaPlugin } from '@vuepress/plugin-pwa'
-import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
+import type {PluginConfig} from 'vuepress';
+import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
+import {searchPlugin} from '@vuepress/plugin-search'
+import {pwaPlugin} from '@vuepress/plugin-pwa'
+import {pwaPopupPlugin} from '@vuepress/plugin-pwa-popup'
 
 const pluginConfigs: PluginConfig = [
     sitemapPlugin({

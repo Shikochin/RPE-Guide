@@ -1,6 +1,5 @@
-import { defineUserConfig } from 'vuepress';
-import { defaultTheme } from '@vuepress/theme-default';
-import { viteBundler } from 'vuepress'
+import {defineUserConfig, viteBundler} from 'vuepress';
+import {defaultTheme} from '@vuepress/theme-default';
 import mathjax from 'markdown-it-mathjax3';
 import themeConfigs from './theme';
 import pluginConfigs from './plugins';

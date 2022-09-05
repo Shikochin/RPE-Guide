@@ -1,11 +1,11 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
+import type {SidebarConfig} from '@vuepress/theme-default'
 
 const sidebarConfigs: SidebarConfig = [{
     text: '准备',
     link: '/prepare/',
     children: [
         '/prepare/intro',
-        '/prepare/preparetion',
+        '/prepare/preparation',
     ]
 }, {
     text: '基础',

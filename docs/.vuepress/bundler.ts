@@ -1,4 +1,5 @@
-import { ViteBundlerOptions } from 'vuepress';
+import {ViteBundlerOptions} from 'vuepress';
+
 const customElements = ['mjx-container', 'g'];
 
 const bundlerConfigs: ViteBundlerOptions = {
