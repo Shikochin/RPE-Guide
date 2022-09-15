@@ -1,6 +1,7 @@
 ---
 next: ../charting
 ---
+
 # 状态栏
 
 ![状态栏](/assets/imgs/contents/状态栏.avif)
@@ -17,3 +18,5 @@ next: ../charting
 - Tips：10 秒钟切换一次，默认开启，可以在设置中关闭。
 
 ![Tips](/assets/imgs/contents/Tips.avif)
+
+- ***问号按钮***：点击跳转到常见问题与解答。
